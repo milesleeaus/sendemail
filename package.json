@@ -1,0 +1,25 @@
+{
+  "name": "sendemail",
+  "version": "1.0.0",
+  "description": "The Code Chanllenge for SiteMinder",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "sendemail"
+  ],
+  "author": "miles",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "2.5.2",
+    "koa-bodyparser": "4.2.1",
+    "koa-router": "7.4.0",
+    "@sendgrid/mail": "^6.4.0",
+    "mailgun-js": "0.22.0",
+    "mime": "2.3.1",
+    "mz": "2.7.0",
+    "nunjucks": "3.1.3"
+  }
+}
