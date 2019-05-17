@@ -16,8 +16,8 @@ to the current project folder by command e.g: unzip apikey.zip -d .
 
 # Endpoints
 The endpoints are:
-official libraries implementation: 127.0.0.1:3332/api/sendemail
-native (no libraries) implementation: 127.0.0.1:3332/api/sendemailnative
+1. official libraries implementation: 127.0.0.1:3332/api/sendemail
+2. native (no libraries) implementation: 127.0.0.1:3332/api/sendemailnative
 
 # command to test locally
 You can use the following similar format to post request:
