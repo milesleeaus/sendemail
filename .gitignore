@@ -1,2 +1,5 @@
 #node_modules
 /node_modules
+
+#apikey.js (due to security reason, you need to unzip it from apikey.zip to the current project folder)
+apikey.js
