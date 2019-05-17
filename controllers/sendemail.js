@@ -3,11 +3,12 @@
  *  The native implementation without offical/3rd-party libraries can be found in
  *  sendemailnative.js
  */
+const apiKey = require('../apikey');
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
+sgMail.setApiKey(apiKey.SENDGRID_API);
 
 const mailgun = require("mailgun-js");
-const mg = mailgun({ apiKey: '0478686ee1d29fbdc3fc3017c966d1ff-4a62b8e8-0a2c9f08', domain: 'miles.sfinder.com.au' });
+const mg = mailgun({ apiKey: apiKey.MAILGUN_API, domain: 'miles.sfinder.com.au' });
 
 var testAPI = async (ctx, next) => {
     console.log('test successed');

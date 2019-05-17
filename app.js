@@ -8,8 +8,8 @@
 
 /**
  *  You can use the the format like this to test the abstraction (native and non-native): 
- *  curl --request POST --url http://127.0.0.1:3332/api/sendemail --header 'Content-Type: application/json' --data '{"to": ["gsa.mileslee@gmail.com","milesleejob@gmail.com"], "from": "miles@sfinder.com.au", "cc": ["ozsmartfinder@gmail.com","mileslee1987@gmal.com"], "subject":"hello", "text":"a test text"}'
- *  curl --request POST --url http://127.0.0.1:3332/api/sendemailnative --header 'Content-Type: application/json' --data '{"to": ["gsa.mileslee@gmail.com","milesleejob@gmail.com"], "from": "miles@sfinder.com.au", "cc": ["ozsmartfinder@gmail.com","mileslee1987@gmal.com"], "subject":"hello", "text":"a test text"}'
+ *  curl --request POST --url http://127.0.0.1:3332/api/sendemail --header 'Content-Type: application/json' --data '{"to": ["gsa.mileslee@gmail.com","milesleejob@gmail.com"], "from": "miles@sfinder.com.au", "cc": ["ozsmartfinder@gmail.com","ozscamping@gmail.com"], "subject":"hello", "text":"a test text"}'
+ *  curl --request POST --url http://127.0.0.1:3332/api/sendemailnative --header 'Content-Type: application/json' --data '{"to": ["gsa.mileslee@gmail.com","milesleejob@gmail.com"], "from": "miles@sfinder.com.au", "cc": ["ozsmartfinder@gmail.com","ozscamping@gmail.com"], "subject":"hello", "text":"a test text"}'
  */
 
 const Koa = require('koa');

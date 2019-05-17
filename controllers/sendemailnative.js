@@ -2,6 +2,7 @@
  *  No offical/3rd-party libraries of SendGrid and MailGun at all.
  * 
  */
+const apiKey = require('../apikey');
 const https = require("https");
 
 var opt = {
@@ -11,7 +12,7 @@ var opt = {
     headers: {
         "Content-Type": 'application/json',
         "Content-Length": 0,
-        "Authorization": 'Bearer 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'
+        "Authorization": 'Bearer' +  apiKey.SENDGRID_API
     }
 }
 
