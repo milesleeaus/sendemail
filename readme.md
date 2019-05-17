@@ -4,10 +4,15 @@
 1. Install Nodejs and NPM first
 2. Then install with cmd -> npm install
 
+
+# Unzip apikey.js from apikey.zip
+Due to SendGrid & MailGun do not allow API key to be exposed on github for any reason,
+the api keys are stored in apikey.js module. So you would need to unzip the apikey.js
+to the current project folder by command e.g: unzip apikey.zip -d . 
+
 # Use
 1. Run by cmd -> node app.js
 2. Then the app is listening on port 3332
-
 
 # Endpoints
 The endpoints are:
