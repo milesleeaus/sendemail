@@ -19,7 +19,7 @@ The endpoints are:
 official libraries implementation: 127.0.0.1:3332/api/sendemail
 native (no libraries) implementation: 127.0.0.1:3332/api/sendemailnative
 
-# command to test
+# command to test locally
 You can use the following similar format to post request:
 
 curl --request POST --url http://127.0.0.1:3332/api/sendemail --header 'Content-Type: application/json' --data '{"to": ["gsa.mileslee@gmail.com","milesleejob@gmail.com"], "from": "miles@sfinder.com.au", "cc": ["ozsmartfinder@gmail.com","ozscamping@gmail.com"], "subject": "hello!", "text": "good morning"}'
